@@ -14,17 +14,17 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Auto_Filters_Bot')
-API_ID = environ.get('API_ID', '')
+API_ID = environ.get('API_ID', '1747534')
 if len(API_ID) == 0:
     logging.error('API_ID is missing, exiting now')
     exit()
 else:
     API_ID = int(API_ID)
-API_HASH = environ.get('API_HASH', '')
+API_HASH = environ.get('API_HASH', '5a2684512006853f2e48aca9652d83ea')
 if len(API_HASH) == 0:
     logging.error('API_HASH is missing, exiting now')
     exit()
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6474315171:AAHxp_G0GK9TNd7JArBd4Uftd2xHVTisbGs')
 if len(BOT_TOKEN) == 0:
     logging.error('BOT_TOKEN is missing, exiting now')
     exit()
